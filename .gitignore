@@ -1,0 +1,23 @@
+# 依赖与构建产物
+node_modules/
+dist/
+
+# 测试产物
+test-results/
+playwright-report/
+blob-report/
+.playwright-artifacts-*/
+
+# 本地调试截图（临时产物，不入库）
+shot-*.png
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 日志与临时文件
+*.log
+npm-debug.log*
+*.tmp.mjs
